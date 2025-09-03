@@ -1,0 +1,135 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    padding: 20px 20px;
+    background-color: rgb(7, 216, 146);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+}
+.logo img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    padding: 10px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+ul li:hover
+{
+    background-color:  rgb(2, 95, 64);
+}
+.active
+{
+    background-color: rgb(2, 95, 64) ;
+    border-radius: 50%;
+}
+.btn button
+{
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(247, 103, 50);
+    font-weight: 500;
+}
+button:hover
+{
+    background-color:  rgb(122, 34, 2);
+}
+.container {
+    background-color: #e6f2ff;
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+     align-items: center; 
+   
+}
+
+.content {
+    flex: 1;
+    justify-content: center;
+    align-items: start;
+    color: #4b0082;
+    padding: 80px 20px;
+    width: 50px;
+    display: flex;
+    text-align: center;
+}
+
+
+form {
+    display: inline-block;
+    background-color: rgba(20, 30, 50, 0.1);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 250px;
+    
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    
+}
+
+
+
+.checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.btn-container input[type="submit"] {
+    padding: 12px 30px;
+    border-radius: 50px;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+ 
+}
+
+.btn-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
